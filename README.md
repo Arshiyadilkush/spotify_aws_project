@@ -27,26 +27,25 @@ To uncover patterns in Spotify track popularity using real-world datasets by bui
 
 ---
 
-## 📂 Project Structure
-
-```bash
 spotify-aws-project/
 │
 ├── README.md
 ├── glue_jobs/
-│   └── etl_script.py                # Generated Glue PySpark script
+│   └── etl_script.py               
 ├── data/
 │   └── artists.csv
 │   └── albums.csv
 │   └── tracks.csv
 ├── sql_queries/
-│   └── top_tracks.sql              # Athena query samples
+│   └── top_tracks.sql
 ├── screenshots/
 │   └── architecture.png
 │   └── quicksight_dashboard.png
-└── .gitignore
+└── .gitignore.
 
-## Technologies Used
+---
+
+## Technologies used
 Amazon S3 – Stores raw and transformed data.
 AWS Glue – ETL pipeline using PySpark.
 Amazon Athena – SQL-based querying on transformed data.
