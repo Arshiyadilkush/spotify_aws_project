@@ -1,0 +1,5 @@
+-- top_tracks.sql
+SELECT artist_name, track_name, popularity
+FROM tracks
+ORDER BY popularity DESC
+LIMIT 10;
