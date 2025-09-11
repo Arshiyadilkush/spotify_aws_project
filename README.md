@@ -61,6 +61,13 @@ SQL – Analytical querying with Athena.
 
 ---
 
+⚠️ **Data Note**
+Due to GitHub file size limitations, only sample datasets are included.
+
+🔗 [Download Full Dataset from Kaggle](https://www.kaggle.com/datasets/tonygordonjr/spotify-dataset-2023)
+
+---
+
 ## Key Insights
 Top artists: Billie Eilish, Imagine Dragons, Drake
 
@@ -80,4 +87,14 @@ Real-time data streaming using Amazon Kinesis
 Sentiment analysis on lyrics
 
 ML-based popularity prediction with Amazon SageMaker
+
+---
+
+## 🧪 How to Run the Project
+
+1. Upload sample CSVs to S3 bucket
+2. Run `ETL_Script.py` in AWS Glue (or locally with Spark)
+3. Use Athena to query the data lake
+4. Visualize results with QuickSight dashboards
+
 
